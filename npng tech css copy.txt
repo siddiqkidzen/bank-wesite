@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2d3436;
+    color: white;
+    padding: 1em 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('back2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(237, 238, 247);
+}
+
+.hero h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: rgb(253, 253, 253);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn {
+    background-color: #0984e3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #28db3d;
+}
+
+/* Services Section */
+.services h2{
+    font-size: 2em;
+}
+.services p{
+    font-size: 1.3em;
+}
+.services {
+    padding: 50px 10%;
+    background-color: rgba(196, 248, 111, 0.961);
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 450px;
+    text-align: left;
+}
+
+.service-card img {
+    height: 400px;
+    width: 450px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Loan Services Section */
+.loans h2{
+    font-size: 2em;
+}
+.loans {
+    padding: 50px 10%;
+    background-color:rgba(196, 248, 111, 0.961);
+    text-align: center;
+}
+
+.loan-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.loan-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+.loan-card h3 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.loan-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 10%;
+    background-color: rgba(196, 248, 111, 0.961);
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonial-card p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+    font-size: 1.1em;
+    color: #4f14ad;
+}
+
+/* Contact Section */
+.contact-card h1{
+    font-size: 3em;
+
+}
+.contact-card p{
+    font-size: 1.5em;
+}
+.contact {
+    padding: 50px 10%;
+    background-color: rgba(196, 248, 111, 0.961);
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label, input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0984e3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom
+}
